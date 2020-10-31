@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Logo from "../../assets/icons/logow.webp";
-import "./navbar.css";
+import "./my-navbar.styles.css";
 
-const Navibar = () => {
+const MyNavbar = () => {
   return (
     <div>
       <Navbar
@@ -36,4 +36,4 @@ const Navibar = () => {
   );
 };
 
-export default Navibar;
+export default MyNavbar;
